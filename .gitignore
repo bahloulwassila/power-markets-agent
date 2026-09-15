@@ -1,0 +1,49 @@
+# -------- Secrets (NEVER commit) --------
+.env
+*.key
+*.pem
+
+# -------- Python --------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# -------- Project data & outputs --------
+data/cache/*
+!data/cache/.gitkeep
+briefs/*.md
+!briefs/example_brief.md
+!briefs/.gitkeep
+
+# Jupyter
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------- IDE / OS --------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# -------- Testing / coverage --------
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
